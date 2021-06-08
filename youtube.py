@@ -12,6 +12,6 @@ print("enter the desired option to download the format")
 dn_option = int(input("enter the option: "))
 #спросит пользователя какой формат видео он хочет загрузить 
 dn_video = videos[dn_option] 
-dn_video.download('/Download') #метод для загрузки видео
+dn_video.download() #метод для загрузки видео
 
 print("download successfully")
