@@ -1,7 +1,7 @@
 from pytube import YouTube
 link = input("enter ur youtube url: ")
 yt = YouTube(link)
-videos = yt.streams.all()
+videos = yt.streams.res()
 #это будет передавать все доступные форматы
 video = list(enumerate(videos))
 #пронумерует все доступные форматы начиная с нуля
